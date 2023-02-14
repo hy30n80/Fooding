@@ -1,0 +1,87 @@
+.container{
+    width: 100%;
+    height : 100%;
+    background-color: rgba(0, 0, 255, 0.613);
+    color: white;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    min-height: 460px;
+}
+
+.register .register_logo{
+    height: 90px;
+    background: url(../../img/coconut.png)
+    no-repeat center / auto 100%;
+
+    /* background-image: url(../../img/coconut.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+
+.register .register_form{
+    width :240px;
+    margin: 0 auto 80px;
+}
+
+.register .register_form input{
+    width: 240px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size : 0.9em;
+}
+
+.register .register_form input:focus{
+    outline: none;
+}
+
+.register .register_form input::placeholder{
+    color:lightgray;
+    
+}
+
+
+.register .register_form button{
+    width: 240px;
+    height:40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size : 0.9em;
+    background-color: white;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.register .register_form button:active{
+    background-color: rgb(210, 165, 251);
+}
+
+.register .register_form #gotosignin{
+    background-color: rgba(255,255,255,0);
+    border: none;
+    margin-top:10px;
+}
+
+
+
+
+.register .register_form #signUpEmail{
+    padding :3px 10px;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.register .register_form #signUpPassword{
+    padding :3px 10px;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+
